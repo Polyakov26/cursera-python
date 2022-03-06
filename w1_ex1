@@ -1,0 +1,18 @@
+#сумма цифр в строке с использованием модуля sys
+
+import sys
+
+digit_string = sys.argv[1]
+
+
+#print(digit_string)
+
+acc = 0
+for digit in list(digit_string):
+    #print(digit)
+
+    d = int(digit)
+    #print(d)
+    acc = acc + d
+print(acc)
+exit(0)
